@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1487851054 source:/home/jmc/PROGRAMACAO-AULAS/C/Calculadora/calculadora.c
+	"calculadora.h"
+
+1487850605 /home/jmc/PROGRAMACAO-AULAS/C/Calculadora/calculadora.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

@@ -1,0 +1,9 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = calculadora2.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+calculadora2: calculadora2.o  
+	gcc -o calculardora2 calculadora2.o -I.
